@@ -1,0 +1,22 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Archives & Compressed files (Prevent GitHub upload issues)
+*.zip
+*.tar
+*.gz
+*.tgz
+*.rar
+*.7z
+*.bak
+
+# AI Studio internal artifacts & local secrets
+.aistudio/
+api-proxy-keys.json
+
